@@ -1,0 +1,121 @@
+{
+  "start": "2024-01-04T13:00:54.691Z",
+  "end": "2024-01-04T13:01:11.650Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome-headless-shell",
+    "browserVersion": "120.0.6099.130",
+    "chrome": {
+      "chromedriverVersion": "120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483})",
+      "userDataDir": "C:\\Users\\SAURAV SUMAN\\AppData\\Local\\Temp\\scoped_dir3464_1294659375"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:65230"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "36cdb9f2f426b2c659eaebc9aa37957d"
+  },
+  "host": "0.0.0.0",
+  "port": 65214,
+  "baseUrl": "http://localhost",
+  "framework": "cucumber",
+  "mochaOpts": {
+    "timeout": 10000
+  },
+  "duration": 16959,
+  "suites": [
+    {
+      "title": "PremierInn Sign in for New User",
+      "duration": 16743,
+      "start": "2024-01-04T13:00:54.830Z",
+      "end": "2024-01-04T13:01:11.573Z",
+      "tests": [
+        {
+          "title": "Given I am on the PremierInn Home Sign up page",
+          "start": "2024-01-04T13:00:54.834Z",
+          "end": "2024-01-04T13:01:01.437Z",
+          "duration": 6603,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "When Accept Cookies if any",
+          "start": "2024-01-04T13:01:01.437Z",
+          "end": "2024-01-04T13:01:11.571Z",
+          "duration": 10134,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\SAURAV SUMAN\\Desktop\\WebDriverio_Cucumber\\timeline-report\\file-1704373271570.jpeg"
+          ],
+          "error": {
+            "message": "Error: Can't call click on element with selector \"#accept-all-cookies-button\" because element wasn't found",
+            "stack": "Error: Can't call click on element with selector \"#accept-all-cookies-button\" because element wasn't found\n    at async World.<anonymous> (C:\\Users\\SAURAV SUMAN\\Desktop\\WebDriverio_Cucumber\\features\\step-definitions\\PremierInn_Home.js:20:3)"
+          }
+        },
+        {
+          "title": "Then Verify PremierInn New Registration Page Title",
+          "start": "2024-01-04T13:01:11.571Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": []
+        },
+        {
+          "title": "When Entering details for New User Registration WB POC lkjh@mailinator.com",
+          "start": "2024-01-04T13:01:11.572Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-01-04T13:00:54.831Z",
+          "end": "2024-01-04T13:00:54.834Z",
+          "duration": 3,
+          "title": "",
+          "associatedSuite": "0"
+        },
+        {
+          "start": "2024-01-04T13:01:11.572Z",
+          "end": "2024-01-04T13:01:11.573Z",
+          "duration": 1,
+          "title": "",
+          "associatedSuite": "0"
+        }
+      ]
+    },
+    {
+      "title": "Sign in PremierInn Website",
+      "duration": 16760,
+      "start": "2024-01-04T13:00:54.814Z",
+      "end": "2024-01-04T13:01:11.574Z",
+      "tests": [],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///C:/Users/SAURAV%20SUMAN/Desktop/WebDriverio_Cucumber/features/Sign_in_NewUser.feature"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 1,
+    "skipped": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "start": "2024-01-04T13:01:13.288Z",
+  "end": "2024-01-04T13:01:13.288Z",
+  "capabilities": {
+    "0": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+        "prefs": {
+          "profile.managed_default_content_settings.popups": 1,
+          "profile.managed_default_content_settings.notifications": 1
+        },
+        "args": [
+          "--headless",
+          "--disable-gpu"
+        ]
+      }
+    }
+  },
+  "baseUrl": "http://localhost",
+  "framework": "cucumber",
+  "mochaOpts": {
+    "timeout": 10000
+  },
+  "duration": 0,
+  "suites": [],
+  "specs": [
+    "file:///C:/Users/SAURAV%20SUMAN/Desktop/WebDriverio_Cucumber/features/login.feature"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0
+  }
+}

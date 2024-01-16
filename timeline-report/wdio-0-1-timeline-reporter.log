@@ -1,0 +1,128 @@
+{
+  "start": "2024-01-04T13:00:54.686Z",
+  "end": "2024-01-04T13:01:11.629Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome-headless-shell",
+    "browserVersion": "120.0.6099.130",
+    "chrome": {
+      "chromedriverVersion": "120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483})",
+      "userDataDir": "C:\\Users\\SAURAV SUMAN\\AppData\\Local\\Temp\\scoped_dir9900_911882450"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:65232"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "4ceaeaf7daef207febca8d954ea9bb40"
+  },
+  "host": "0.0.0.0",
+  "port": 65210,
+  "baseUrl": "http://localhost",
+  "framework": "cucumber",
+  "mochaOpts": {
+    "timeout": 10000
+  },
+  "duration": 16943,
+  "suites": [
+    {
+      "title": "PremierInn New User Sign in",
+      "duration": 16720,
+      "start": "2024-01-04T13:00:54.819Z",
+      "end": "2024-01-04T13:01:11.539Z",
+      "tests": [
+        {
+          "title": "Given I am on the PremierInn Home page",
+          "start": "2024-01-04T13:00:54.822Z",
+          "end": "2024-01-04T13:01:01.415Z",
+          "duration": 6593,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "When Accept Cookies if any",
+          "start": "2024-01-04T13:01:01.415Z",
+          "end": "2024-01-04T13:01:11.537Z",
+          "duration": 10122,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\SAURAV SUMAN\\Desktop\\WebDriverio_Cucumber\\timeline-report\\file-1704373271535.jpeg"
+          ],
+          "error": {
+            "message": "Error: Can't call click on element with selector \"#accept-all-cookies-button\" because element wasn't found",
+            "stack": "Error: Can't call click on element with selector \"#accept-all-cookies-button\" because element wasn't found\n    at async World.<anonymous> (C:\\Users\\SAURAV SUMAN\\Desktop\\WebDriverio_Cucumber\\features\\step-definitions\\PremierInn_Home.js:20:3)"
+          }
+        },
+        {
+          "title": "Then Verify PremierInn Home Page Title",
+          "start": "2024-01-04T13:01:11.537Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": []
+        },
+        {
+          "title": "When Clicking on Sign in button",
+          "start": "2024-01-04T13:01:11.537Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": []
+        },
+        {
+          "title": "When Entering details for Sign in WB POC WB.POC.1@mailinator.com",
+          "start": "2024-01-04T13:01:11.538Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-01-04T13:00:54.820Z",
+          "end": "2024-01-04T13:00:54.822Z",
+          "duration": 2,
+          "title": "",
+          "associatedSuite": "0"
+        },
+        {
+          "start": "2024-01-04T13:01:11.538Z",
+          "end": "2024-01-04T13:01:11.538Z",
+          "duration": 0,
+          "title": "",
+          "associatedSuite": "0"
+        }
+      ]
+    },
+    {
+      "title": "Sign in PremierInn Website",
+      "duration": 16738,
+      "start": "2024-01-04T13:00:54.802Z",
+      "end": "2024-01-04T13:01:11.540Z",
+      "tests": [],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///C:/Users/SAURAV%20SUMAN/Desktop/WebDriverio_Cucumber/features/Sign_In_here.feature"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 1,
+    "skipped": 0
+  }
+}
